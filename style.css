@@ -102,3 +102,18 @@ img {
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
+.container {
+  width: 100%;
+}
+.row {
+  display: block;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 576px) .container {
+  display: block;
+}
+.col-sm-4 {
+  flex: 0 0 auto;
+  width: 30%;
+}
