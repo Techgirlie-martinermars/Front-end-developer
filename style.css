@@ -110,10 +110,16 @@ img {
   flex-wrap: wrap;
 }
 
-@media (min-width: 576px) .container {
-  display: block;
-}
-.col-sm-4 {
-  flex: 0 0 auto;
-  width: 30%;
+@media (min-width: 576px) {
+  .container {
+    display: block;
+  }
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
