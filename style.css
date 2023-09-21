@@ -111,15 +111,20 @@ img {
 }
 
 @media (min-width: 576px) {
-  .container {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
     display: block;
-  }
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: 30%;
-  }
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
+    text-align: center;
+    margin: 0 20px;
   }
 }
