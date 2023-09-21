@@ -102,18 +102,10 @@ img {
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
-.container {
-  width: 100%;
-}
-.row {
-  display: block;
-  flex-wrap: wrap;
-}
 
 @media (min-width: 576px) {
   h1 {
     font-size: 40px;
-    text-align: center;
   }
   h2 {
     font-size: 30px;
